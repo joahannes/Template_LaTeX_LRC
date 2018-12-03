@@ -1,9 +1,12 @@
-\documentclass[10pt,aspectratio=169]{beamer} %Widescreen
-%\documentclass[10pt]{beamer} %4:3
+% Versao 1.0 - Helder Oliveira
+% Versao 1.1 - Joahannes Costa
 
-%Versao 1.0 - Helder Oliveira
+% Widescreen
+%\documentclass[10pt,aspectratio=169]{beamer}
+% 4:3
+\documentclass[10pt]{beamer} 
 
-%OBSW: se a barra de progresso quebrar, mexer na
+%OBS: se a barra de progresso quebrar, mexer na
 % parte "calculate end position" do arquivo beamerouterthemeLRC.sty
 % e somar o número no 360 para corrigir.
 
@@ -74,22 +77,25 @@
 
 \title[Título do seu trabalho aqui]
 {
-\textcolor{LRCcolorblue}{\textbf{Título do seu trabalho aqui}}
+    \textcolor{LRCcolorblue}{\textbf{Título do seu trabalho aqui}}
 }
 
 \subtitle[~]
 {
-      \textbf{Subtítulo do seu trabalho aqui, comente se não tiver}
+      %\textbf{Subtítulo do seu trabalho aqui, comente se não tiver}
 }
 
-\author[Fulano e Ciclano 2018]
-{\textsc{\underline{Fulano de tal} \& \underline{Ciclano da silva}}}
+\author[Autor et al. 2018]
+{\textbf{Primeiro Autor, Segundo Autor, \& Terceiro Autor}}
 
 \institute[]
-{
-    Universidade Estadual de Campinas\\
-    Instituto de Computação\\
-    Laboratório de Redes de Computadores\\
+{   
+    \includegraphics[scale=0.3]{LRCgraphics/logo-unicamp.eps}\\
+    \textsc{
+        Universidade Estadual de Campinas\\
+        Instituto de Computação\\\vspace{-0.1cm}
+        Laboratório de Redes de Computadores
+    }
 }
 
 \date{Campinas, \today}
@@ -136,7 +142,7 @@
     \end{itemize}
 \begin{figure}[!htb]
     \centering
-    \includegraphics[scale=0.7]{images/5G-Evolution-Chart.png}
+    \includegraphics[scale=0.4]{images/5G-Evolution-Chart.png}
     \caption{Geração das redes móveis \cite{ciena5g2018}}
 \end{figure}
 \end{frame}
@@ -162,12 +168,12 @@ A falha de um equipamento é fatal & Sim                             & Não     
 %-
 \begin{frame}{LTE}{Características}
 \begin{table}[]
-\begin{tabular}{l|l|l|l|l|l}
+\begin{tabular}{l|l|l|l}
 %\hline
-Tecnologia      & Downlink\footnote{ERB $\rightarrow$ Celular} & Uplink\footnote{Celular $\rightarrow$ ERB}   & Canalização (MHz) & Latência (ms) & Release     \\ \hline
-LTE             & 100 Mbps & 50 Mbps  & 20                & $\sim$~10      & 8 e 9       \\ \hline
-LTE-A           & 1.0 Gbps & 0.5 Gbps & 100               & $\sim$~10      & 10, 11 e 12 \\ \hline
-LTE-A Pro       & 3.0 Gbps & 1.5 Gbps & 640               & $\textless$~2   & 13         \\
+Tecnologia      & Downlink\footnote{ERB $\rightarrow$ Celular} & Uplink\footnote{Celular $\rightarrow$ ERB}   & Canalização (MHz) \\ \hline
+LTE             & 100 Mbps & 50 Mbps  & 20                \\ \hline
+LTE-A           & 1.0 Gbps & 0.5 Gbps & 100               \\ \hline
+LTE-A Pro       & 3.0 Gbps & 1.5 Gbps & 640               \\
 %\hline
 \end{tabular}
 \caption{Principais características das redes LTE}
@@ -205,12 +211,10 @@ LTE-A Pro       & 3.0 Gbps & 1.5 Gbps & 640               & $\textless$~2   & 13
 \begin{figure}[!ht]
 	\centering
 	\subfigure[Com contenção]{
-	    \includegraphics[scale=0.40]{images/contencao-based.png}
-	    \label{fig:sub1}
+	    \includegraphics[scale=0.3]{images/contencao-based.png}
 	}
 	\subfigure[Sem contenção]{
-	    \includegraphics[scale=0.40]{images/contencao-free.png}
-	    \label{fig:sub1}
+	    \includegraphics[scale=0.3]{images/contencao-free.png}
 	}
 	\label{fig:redecomplexa}
 \end{figure}
