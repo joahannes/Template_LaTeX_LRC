@@ -29,9 +29,13 @@ Modelo de apresentação LaTeX Beamer do Laboratório de Redes de Computadores (
 2. Recompilar o arquivo .tex
 
 3. Instalar o software [dspdfviewer](https://dspdfviewer.danny-edel.de/).
-
-	$ sudo apt-get install dspdfviewer
+	
+	```shellscript
+	sudo apt-get install dspdfviewer
+	```
 
 4. Após instalado, abrir apresentação com o dspdfviewer via terminal
-
-	$ dspdfviewer nome_arquivo.pdf
+	
+	```shellscript
+	dspdfviewer nome_arquivo.pdf
+	```
