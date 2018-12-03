@@ -19,7 +19,7 @@ Modelo de apresentação LaTeX Beamer do Laboratório de Redes de Computadores (
 
 ### Habilitar exibição de notas ###
 
-Baixar o software dspdfviewer.
+Baixar o software [dspdfviewer](https://dspdfviewer.danny-edel.de/).
 
 	$ sudo apt-get install dspdfviewer
 
