@@ -22,9 +22,10 @@ Modelo de apresentação LaTeX Beamer do Laboratório de Redes de Computadores (
 1. Descomentar trecho no arquivo .tex
 
 	```tex
-	% \usepackage{pgfpages}
-	% \setbeameroption{show notes on second screen}
+	\usepackage{pgfpages}
+	\setbeameroption{show notes on second screen}
 	```
+	
 2. Recompilar o arquivo .tex
 
 3. Instalar o software [dspdfviewer](https://dspdfviewer.danny-edel.de/).
