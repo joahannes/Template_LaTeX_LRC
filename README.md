@@ -1,5 +1,10 @@
 # Template_LaTeX_LRC
-Modelo de apresentação LaTeX Beamer do Laboratório de Redes de Computadores (LRC) da UNICAMP
+Modelo de apresentação LaTeX Beamer do Laboratório de Redes de Computadores (LRC) da UNICAMP.
+
+Contribuidores:
+
+* Helder Oliveira [LINK](http://http://www.lrc.ic.unicamp.br/~helder)
+* Joahannes Costa [LINK](http://http://www.lrc.ic.unicamp.br/~joahannes)
 
 ### Imagens do template ###
 
