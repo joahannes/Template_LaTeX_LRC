@@ -3,8 +3,8 @@ Modelo de apresentação LaTeX Beamer do Laboratório de Redes de Computadores (
 
 Contribuidores:
 
-* Helder Oliveira [LINK](http://http://www.lrc.ic.unicamp.br/~helder)
-* Joahannes Costa [LINK](http://http://www.lrc.ic.unicamp.br/~joahannes)
+* Helder Oliveira [LINK](http://www.lrc.ic.unicamp.br/~helder)
+* Joahannes Costa [LINK](http://www.lrc.ic.unicamp.br/~joahannes)
 
 ### Imagens do template ###
 
