@@ -17,12 +17,20 @@ Modelo de apresentação LaTeX Beamer do Laboratório de Redes de Computadores (
 	<img src="https://github.com/joahannes/Template_LaTeX_LRC/blob/master/images/template2.png" border="5" width="600"/>
 </p>
 
-### Habilitar exibição de notas ###
+### Habilitar exibição de notas: ###
 
-Baixar o software [dspdfviewer](https://dspdfviewer.danny-edel.de/).
+1. Descomentar trecho no arquivo .tex
+
+	```tex
+	% \usepackage{pgfpages}
+	% \setbeameroption{show notes on second screen}
+	```
+2. Recompilar o arquivo .tex
+
+3. Instalar o software [dspdfviewer](https://dspdfviewer.danny-edel.de/).
 
 	$ sudo apt-get install dspdfviewer
 
-Após instalado, abrir apresentação com o dspdfviewer via terminal
+4. Após instalado, abrir apresentação com o dspdfviewer via terminal
 
 	$ dspdfviewer nome_arquivo.pdf
